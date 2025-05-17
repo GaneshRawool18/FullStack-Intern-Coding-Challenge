@@ -1,0 +1,21 @@
+.star-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star {
+  transition: color 0.2s;
+}
+
+.star:hover {
+  transform: scale(1.1);
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}

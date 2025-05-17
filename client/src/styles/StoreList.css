@@ -1,0 +1,33 @@
+@import url('../styles/StoreList.css');
+
+.hover-effect {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+}
+
+.card-img-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
