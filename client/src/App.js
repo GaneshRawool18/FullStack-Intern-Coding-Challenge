@@ -36,7 +36,8 @@ const ProtectedRoute = ({ element, allowedRoles }) => {
     return <div className="container text-center mt-4">Loading...</div>;
   }
   
-  // If not authenticated, redirect to login
+
+  // If user is not authenticated, redirect to login page
   if (!isAuthenticated) {
     return <Navigate to="/login" />;
   }
