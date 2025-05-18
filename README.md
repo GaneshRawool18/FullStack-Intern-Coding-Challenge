@@ -132,32 +132,30 @@ The application will be available at http://localhost:3000
 
 ### Client
 
-\`\`\`
 client/
-├── public/
+├── public/                  # Static assets (index.html, icons, etc.)
 ├── src/
-│ ├── components/ # Reusable React components
-│ ├── context/ # React Context providers
-│ ├── layouts/ # Page layouts
-│ ├── pages/ # Route components
-│ ├── styles/ # CSS stylesheets
-│ ├── utils/ # Utility functions
-│ ├── App.js # Root component
-│ └── index.js # Entry point
-\`\`\`
+│   ├── components/          # Reusable React components
+│   ├── context/             # React Context providers
+│   ├── layouts/             # Page layouts (e.g., MainLayout, AuthLayout)
+│   ├── pages/               # Route components (e.g., Home, About, Dashboard)
+│   ├── styles/              # CSS or SCSS stylesheets
+│   ├── utils/               # Utility/helper functions
+│   ├── App.js               # Root App component
+│   └── index.js             # Entry point (renders App into DOM)
+
 
 ### Server
 
-\`\`\`
 server/
 ├── src/
-│ ├── config/ # Database and app configuration
-│ ├── controllers/ # Route controllers
-│ ├── middleware/ # Express middleware
-│ ├── models/ # Database models
-│ ├── routes/ # API routes
-│ └── index.js # Entry point
-\`\`\`
+│   ├── config/              # Database and application configuration
+│   ├── controllers/         # Controller functions for handling requests
+│   ├── middleware/          # Custom Express middleware (auth, logging, etc.)
+│   ├── models/              # Database models (e.g., Mongoose schemas)
+│   ├── routes/              # API route definitions
+│   └── index.js             # Entry point (starts Express server)
+
 
 ## API Endpoints
 
